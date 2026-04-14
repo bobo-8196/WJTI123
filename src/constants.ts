@@ -38,7 +38,7 @@ export const QUESTIONS: Question[] = [
     ]
   },
   {
-    text: "以下哪种食物是妳的最？",
+    text: "以下哪种食物是妳的最爱？",
     options: [
       { text: "拉丝面包机烤出来的香香面包", score: { I: 2, N: 1 } },
       { text: "被劈成两半的牛油果", score: { T: 2, S: 1 } },
@@ -101,7 +101,7 @@ export const QUESTIONS: Question[] = [
     ]
   },
   {
-    text: "如果人生有剧本，你更愿意参与哪一章节的扮演？",
+    text: "如果人生有剧本，妳更愿意参与哪一章节的扮演？",
     options: [
       { text: "2001-2005 在校园中，每天保持自律但充实的学习", score: { J: 2, T: 1 } },
       { text: "2006 勇敢追梦，成为聚光灯下万众瞩目的主角", score: { E: 2, S: 1 } },
