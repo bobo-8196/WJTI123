@@ -209,7 +209,7 @@ export default function App() {
                       </>
                     );
                   }
-                  return <span className="whitespace-nowrap md:whitespace-normal">{resultData.title}</span>;
+                  return <span className="block">{resultData.title}</span>;
                 })()}
               </h2>
               
