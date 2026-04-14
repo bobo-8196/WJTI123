@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&family=Noto+Serif+SC:wght@400;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Noto Serif SC", serif;
+
+  --color-bg-dark: #050505;
+  --color-soft-gray: #111111;
+  --color-accent-purple: #b026ff;
+  --color-accent-silver: #a0a0a0;
+  --color-ink-white: #ffffff;
+  --color-accent-golden: #c5a059;
+  --color-accent-golden-bright: #e5c17e;
+}
+
+@layer base {
+  body {
+    @apply antialiased min-h-screen text-white;
+    background-image: url('/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #000;
+  }
+}
+
+.glass {
+  @apply bg-black/85 backdrop-blur-3xl border border-white/10 shadow-[0_0_50px_rgba(0,0,0,0.5)];
+}
+
+.option-card {
+  @apply transition-all duration-300 bg-white/5 border border-white/10 cursor-pointer text-accent-golden/80 hover:bg-accent-golden/10 hover:border-accent-golden/40 hover:text-accent-golden-bright;
+}
+
+.option-card.selected {
+  @apply bg-accent-golden/10 border-accent-golden text-accent-golden-bright shadow-[0_0_20px_rgba(197,160,89,0.15)];
+}
+
+.progress-inner {
+  @apply h-full bg-accent-golden transition-all duration-700 ease-out shadow-[0_0_10px_rgba(197,160,89,0.5)];
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
