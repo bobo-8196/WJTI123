@@ -52,7 +52,7 @@ export const QUESTIONS: Question[] = [
       { text: "宝贝我怀念妳，每一天在我心底", score: { J: 2, I: 1 } },
       { text: "好想躲进妳的脑海里，轻抚着妳的发髻", score: { E: 2, F: 1 } },
       { text: "I like the way you walk，I like the way you talk", score: { S: 2, T: 1 } },
-      { text: "陷落一双眼，闪躲有宛若相见", score: { N: 2, P: 1 } }
+      { text: "陷落一双眼，闪躲又宛若相见", score: { N: 2, P: 1 } }
     ]
   },
   {
